@@ -20,13 +20,11 @@ export default [
             'warn',
             {
                arrowParens: 'always',
-               semi: false,
-               trailingComma: 'none',
-               tabWidth: 2,
-               endOfLine: 'auto',
+               semi: true,
+               tabWidth: 4,
+               endOfLine: 'off',
                useTabs: false,
                singleQuote: true,
-               printWidth: 120,
                jsxSingleQuote: true
             }
          ]

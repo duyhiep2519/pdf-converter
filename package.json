@@ -18,6 +18,7 @@
    "devDependencies": {
       "@eslint/js": "^9.19.0",
       "@types/node": "^22.13.1",
+      "@types/pdf-parse": "^1.1.4",
       "eslint": "^9.19.0",
       "eslint-config-prettier": "^10.0.1",
       "eslint-plugin-prettier": "^5.2.3",
@@ -32,6 +33,9 @@
    },
    "dependencies": {
       "dotenv-flow": "^4.1.0",
+      "pdf-parse": "^1.1.1",
+      "pdf-poppler": "^0.2.1",
+      "tesseract.js": "^6.0.0",
       "winston": "^3.17.0"
    }
 }
